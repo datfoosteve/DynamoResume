@@ -1,9 +1,20 @@
 import React from 'react';
 import Link from 'next/link';
+import { AnimatePresence } from 'framer-motion';
 
 const Navigation = () => {
   return (
-    <ul>
+<AnimatePresence>
+    <ul style={{
+        listStyle: 'none',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        padding: 0,
+        margin: 0
+        
+      }}>
+
     <li>
     
 
@@ -35,6 +46,7 @@ const Navigation = () => {
 
 
   </ul>
+  </AnimatePresence>
   );
 };
 
