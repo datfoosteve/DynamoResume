@@ -9,6 +9,12 @@ const SkillsPage = () => {
         <li>React</li>
         <li>Node.js</li>
         <li>Next.js</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Python</li>
+
       </ul>
     </div>
   );
