@@ -16,7 +16,7 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px ridge #4064d0;
   justify-content: center;
   align-items: center;
 }
@@ -71,6 +71,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  border: 1px solid #3505c6;
 }
 
 .card {
@@ -86,6 +87,10 @@
 }
 
 .card:hover,
+.card::backdrop{
+  color: #02070d;
+  border-color: #0d0f12;
+}
 .card:focus,
 .card:active {
   color: #0070f3;
