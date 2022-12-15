@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import About from '../components/About'
+import Contact from '../components/Contact'
+import Resume from '../components/Resume'
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Navigation from './navigation';
@@ -21,7 +23,7 @@ export default function Home() {
   return (
     <div className="mx-auto flex w-full flex-col items-center justify-center">
       <Head>
-        <title>twonarly</title>
+        <title>Stephen</title>
         <link rel="icon" href="/two.png" />
       </Head>
       <Header data={resumeData.main} />

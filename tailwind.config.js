@@ -1,10 +1,15 @@
-/** @type {import('tailwindcss').Config} */
+// /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    extend: {
+      colors: {
+        orange: '#F97316',
+        slate: '#E2E8F0',
+      },
     accentColor: ({ theme }) => ({
       ...theme('colors'),
       auto: 'auto',
@@ -951,5 +956,6 @@ module.exports = {
       50: '50',
     },
   },
-  plugins: [],
-}
+  plugins: [require('tailwind-scrollbar-hide')],
+},
+};
