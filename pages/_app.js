@@ -4,7 +4,7 @@ import Navigation from './navigation'
 
 function MyApp({ Component, pageProps }) {
   return (<>
-  <Head><title>Stephen's Resume!</title></Head>
+  <Head><title>Stephens Resume!</title></Head>
     <Navigation/>
   <Component {...pageProps} />
   </>)
