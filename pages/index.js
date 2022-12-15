@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Navigation from './navigation';
+import { motion } from "framer-motion";
 
 const IndexPage = () => {
   return (
@@ -13,7 +14,11 @@ const IndexPage = () => {
      
     
     </div>
+
+
+
   );
+  
 };
 
 export default IndexPage;

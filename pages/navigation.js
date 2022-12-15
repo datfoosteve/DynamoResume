@@ -7,7 +7,7 @@ const Navigation = () => {
     <AnimatePresence>
       <ul
         style={{
-          borderStyle: "solid",
+          borderStyle: "double",
           listStyle: "none",
           display: "flex",
           justifyContent: "space-between",
@@ -23,7 +23,7 @@ const Navigation = () => {
           <Link href="/education">Education</Link>
         </li>
         <li>
-          <Link href="/experiance">Experiance</Link>
+          <Link href="/experience">Experience</Link>
         </li>
         <li>
           <Link href="/skills">Skills</Link>

@@ -14,6 +14,11 @@ const SkillsPage = () => {
         <li>Java</li>
         <li>C++</li>
         <li>Python</li>
+        <li>SQL</li>
+        <li>Git</li>
+        <li>Arlie</li>
+        <li>Linux</li>
+
 
       </ul>
     </div>

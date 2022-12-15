@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ExperiancePage = () => {
+const ExperiencePage = () => {
   return (
     <div>
       <h1>Skills</h1>
@@ -14,4 +14,4 @@ const ExperiancePage = () => {
   );
 };
 
-export default ExperiancePage;
+export default ExperiencePage;
