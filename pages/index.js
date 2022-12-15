@@ -7,8 +7,7 @@ import { motion } from "framer-motion";
 
 const IndexPage = () => {
   return (
-    <div className="text-3xl font-bold underline">
-      <Navigation />
+    <div className="text-3xl font-bold underline ">
       <h1>Hello, I am Stephen Puthenpurackal</h1>
       <p>Its a pleasure to make your aquaintance.</p>
      

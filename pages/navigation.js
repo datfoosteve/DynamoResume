@@ -5,7 +5,7 @@ import { AnimatePresence } from "framer-motion";
 const Navigation = () => {
   return (
     <AnimatePresence>
-      <ul
+      <ul class="flex border-b"
         style={{
           borderStyle: "double",
           listStyle: "none",
@@ -16,26 +16,29 @@ const Navigation = () => {
           margin: 0,
         }}
       >
-        <li>
-          <Link href="/about">About</Link>
+        <li class="-mb-px mr-1">
+          <Link href="/about"class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">About</Link>
         </li>
-        <li>
-          <Link href="/education">Education</Link>
+        <li class="-mb-px mr-1">
+          <Link href="/education"class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">Education</Link>
         </li>
-        <li>
-          <Link href="/experience">Experience</Link>
+        <li class="-mb-px mr-1">
+          <Link href="/experience"class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">Experience</Link>
         </li>
-        <li>
-          <Link href="/skills">Skills</Link>
+        <li class="-mb-px mr-1">
+          <Link href="/skills"class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">Skills</Link>
         </li>
-        <li>
-          <Link href="/projects">Projects</Link>
+        <li class="-mb-px mr-1">
+          <Link href="/projects"class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">Projects</Link>
         </li>
-        <li>
-          <Link href="/contact">Contact</Link>
+        <li class="-mb-px mr-1">
+          <Link href="/contact" class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">Contact</Link>
         </li>
       </ul>
     </AnimatePresence>
+
+
+
   );
 };
 
