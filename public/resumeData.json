@@ -1,0 +1,166 @@
+{
+    "main": {
+      "name": "Stephen Puthenpurackal",
+      "occupation": "Software Developer, Software Engineeer, Computer Science Student",
+      "description": "Learning and developing on the web while engineering and fabricating in life.",
+      "image": "profilepic.png",
+      "bio": "",
+      "contactmessage": "Please feel free to contact me via email or phone.",
+      "email": "puthenpurackalstephen@gmail.com.com",
+      "phone": "469-735-7590",
+      "address": {
+        "street": "815 Dandelion Dr",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75149"
+      },
+      "website": "github.com/datfoosteve",
+      "resumedownload": "/Beau-Resume-2022.pdf",
+      "social": [
+        {
+          "network": "twitter",
+          "link": "https://twitter.com/",
+          "pic": "twitter.svg"
+        },
+        {
+          "network": "linkedin",
+          "link": "",
+          "pic": "linkedin.svg"
+        },
+        {
+          "network": "github",
+          "link": "https://github.com/",
+          "pic": "github.svg"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage": "Experience with:",
+      "education": [
+        {
+          "school": "Midwestern State University, Wichita Falls, TX",
+          "degree": "Bachelor's Degree in Science, Computer Science",
+          "graduated": "Dec 2020",
+          "description": "Bachelor's Degree in Science, Computer Science"
+        }
+      ],
+      "work": [
+        {
+          "company": "Searching",
+          "title": "Building in the Web3 space ",
+          "years": "October 2020 - Present",
+          "description": "Previous CNC (CAD/CAM) plasma specialist."
+        }
+      ],
+      "skills": [
+        {
+          "name": "React",
+          "src": "react.svg",
+          "url": "https://reactjs.org/docs/getting-started.html"
+        },
+        {
+          "name": "Next",
+          "src": "next.svg",
+          "url": "https://nextjs.org/docs"
+        },
+        {
+          "name": "Apollo",
+          "src": "apollo.svg",
+          "url": "https://www.apollographql.com/docs/apollo-server/"
+        },
+        {
+          "name": "Graphql",
+          "src": "graphql.svg",
+          "url": "https://graphql.org/graphql-js/"
+        },
+        {
+          "name": "Tailwind",
+          "src": "tailwind.svg",
+          "url": "https://tailwindcss.com/docs/installation"
+        },
+        {
+          "name": "Typescript",
+          "src": "ts.svg",
+          "url": "https://www.typescriptlang.org/docs/"
+        },
+        {
+          "name": "Nodejs",
+          "src": "node.svg",
+          "url": "https://nodejs.org/en/docs/guides/getting-started-guide/"
+        },
+        {
+          "name": "Ethereum",
+          "src": "ethereum.svg",
+          "url": "https://ethereum.org/en/"
+        },
+        {
+          "name": "Solidity",
+          "src": "solidity.svg",
+          "url": "https://docs.soliditylang.org/en/v0.8.13/"
+        },
+        {
+          "name": "Firebase",
+          "src": "firebase.svg",
+          "url": "https://firebase.google.com/"
+        },
+        {
+          "name": "Oauth",
+          "src": "oauth.svg",
+          "url": "https://oauth.net/getting-started/"
+        },
+        {
+          "name": "Javascript",
+          "src": "js.svg",
+          "url": "https://www.javascript.com/"
+        }
+      ],
+      "certificates": [
+        {
+          "name": "Full Stack Web Development",
+          "src": "odyssey-cert.png",
+          "url": "https://www.apollographql.com/tutorials/certifications/84c7debb-7749-4eef-a19b-67d766d1d1be"
+        }
+      ]
+    },
+  
+    "portfolio": {
+      "projects": [
+        {
+          "title": "Proof",
+          "description": "Proof of Humanity tooling and ceramic network social application.",
+          "category": "",
+          "image": "poh.png",
+          "url": "https://proof-neon.vercel.app/"
+        },
+        {
+          "title": "Winsome-Tenley NFT drop",
+          "description": "2nd place winner. Papa React NFT Drop Challenge.",
+          "category": "",
+          "image": "winsome-tenley.png",
+          "url": "https://winsome-tenley.vercel.app/"
+        },
+        {
+          "title": "Specto Hackathon Contributor",
+          "description": "Lens Protocol Hackathon. 1 of 5 contributors. April 2022",
+          "category": "",
+          "image": "specto-black.png",
+          "url": "https://github.com/Ecto-Finance/specto"
+        },
+        {
+          "title": "Muse DAO Contributions",
+          "description": "Several small contributions to musedao.io, noteably the Farm page.",
+          "category": "",
+          "image": "musedao.png",
+          "url": "https://musedao.io/farm"
+        }
+      ]
+    },
+    "testimonials": {
+      "testimonials": [
+        {
+          "text": "The competition was fierce and we got so many submissions but you pulled through. Your point total was higher than the other 600 contestants by a significant margin",
+          "user": "Sonny Sangha - PAPA Core Team"
+        }
+      ]
+    }
+  }
