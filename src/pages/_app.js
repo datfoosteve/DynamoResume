@@ -1,13 +1,11 @@
 import Head from 'next/head'
 import '../styles/globals.css'
-import Navigation from './navigation'
+import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps }) {
-  return (<>
-  <Head><title>Stephens Resume!</title></Head>
-    <Navigation/>
-  <Component {...pageProps} />
-  </>)
+  return (<Layout>
+    <Component {...pageProps} />
+  </Layout>)
 }
 
 export default MyApp
