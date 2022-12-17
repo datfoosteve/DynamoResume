@@ -21,7 +21,7 @@ const FloatingPop = () => {
             <a className="hover" href="#education">
               Resume
             </a>
-            <a className="hover" href="#experiance">
+            <a className="hover" href="#experience">
               Works
             </a>
             <a className="hover" href="#skills">
