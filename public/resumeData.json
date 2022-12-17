@@ -131,18 +131,18 @@
     "portfolio": {
       "projects": [
         {
-          "title": "Example Title",
-          "description": "Example Description",
-          "category": "Example Catagory",
+          "title": "Lyrical Hackers - Musical Artist Search Engine",
+          "description": "This website allowed a user to search for their favorite artist’s albums, songs, and upcoming events. In doing so, the user would be taken to external links that would allow him or her to explore the album, find lyrics to their favorite songs, or buy tickets to the next concert.",
+          "category": "Bootstrap, Moment, server-side API's, Google Fonts, HTML, CSS, JavaScript",
           "image": "poh.png",
-          "url": "https://github.com/datfoosteve"
+          "url": "HTTPS://COLINMCHALE.GITHUB.IO/PROJECTFORHACKERS"
         },
         {
-          "title": "Example Title",
-          "description": "Example Description",
-          "category": "Example Catagory",
+          "title": "JATE",
+          "description": "This program is a text editor that runs in a browser window. It is a single application that meets the PWA(Progressive Web Application) criteria and features a number of data persistence techniques that can also serves as redundancy, in such that, when a browser doesn’t support it. In other words, this application will function offline.This application consists of methods that are used for retrieving and storing data to an IndexedDB database, and uses a package called idb. The package idb is a lightweight wrapper which is used in tandem with the indexedDB API and database. The API used for storing and retrieving data is also used by companies like Google and Mozilla.",
+          "category": "Progressive Web APP",
           "image": "winsome-tenley.png",
-          "url": "https://github.com/datfoosteve"
+          "url": "HTTPS://TEXT-JEDITOR.HEROKUAPP.COM/"
         },
         {
           "title": "Example Title",
