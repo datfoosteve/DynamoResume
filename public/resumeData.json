@@ -1,5 +1,5 @@
 {
-    "main": {
+  "main": {
       "name": "Stephen Puthenpurackal",
       "occupation": "Software Developer, Software Engineeer, Computer Science Student",
       "description": "Learning and developing on the web while engineering and fabricating in life.",
@@ -24,7 +24,7 @@
         },
         {
           "network": "linkedin",
-          "link": "",
+          "link": "https://www.linkedin.com/puthenpurackalstephen",
           "pic": "linkedin.svg"
         },
         {

@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer components {
   /*
   =====================================================================
@@ -18,7 +16,6 @@
    f. Details
    g. Resume
    h. Portfolio
-   i. Testimonials
    j. Contact
    k. Footer
   ===================================================================== */
@@ -237,28 +234,6 @@
   }
   .projects {
     @apply mx-auto mt-12 mb-12 max-w-4xl md:grid md:grid-cols-2 md:px-8 xl:max-w-6xl xl:grid-cols-3;
-  }
-
-  /* ------------------------------------------------------------------ */
-  /* i. Testimonials
-  /* ------------------------------------------------------------------ */
-  .testimonials {
-    @apply my-6;
-  }
-  .text {
-    @apply ml-4 text-lg;
-  }
-  .user {
-    @apply mt-6 ml-4;
-  }
-  .testimonial {
-    @apply mx-auto mt-20 max-w-4xl md:flex;
-  }
-  .annotationIcon {
-    @apply hidden w-48 md:mr-12 md:flex;
-  }
-  .testimonialList {
-    @apply text-center md:mr-40 md:text-left;
   }
 
   /* ------------------------------------------------------------------ */
