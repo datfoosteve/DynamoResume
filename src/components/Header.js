@@ -1,5 +1,4 @@
 import React from 'react'
-import TypeWriter from 'react-typewriter'
 import { ChevronDownIcon } from '@heroicons/react/outline'
 
 const Header = ({ data }) => {
@@ -27,9 +26,6 @@ const Header = ({ data }) => {
 
   return (
     <header id="home" className="header">
-      <h1 className="name">
-        <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
-      </h1>
       <div className="description"> {description}</div>
       <h3 className="city text-orange">
         Based in {city}, {state}.
