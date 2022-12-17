@@ -6,36 +6,36 @@ const FloatingTabs = () => {
     <div className="floatingTabs">
       <Tab.Group>
         <Tab.List className="tabList">
-          <Tab className={({ selected }) => (selected ? 'text-orange' : '')}>
+          <Tab className={({ selected }) => (selected ? 'text-blue' : '')}>
             <a className="tab" href="#home">
               Home
             </a>
           </Tab>
-          <Tab className={({ selected }) => (selected ? 'text-orange' : '')}>
+          <Tab className={({ selected }) => (selected ? 'text-blue' : '')}>
             <a className="tab" href="#about">
               About
             </a>
           </Tab>
-          <Tab className={({ selected }) => (selected ? 'text-orange' : '')}>
+          <Tab className={({ selected }) => (selected ? 'text-blue' : '')}>
             <a className="tab" href="#education">
               Education
             </a>
-          </Tab><Tab className={({ selected }) => (selected ? 'text-orange' : '')}>
+          </Tab><Tab className={({ selected }) => (selected ? 'text-blue' : '')}>
             <a className="tab" href="#experiance">
               Experiance
             </a>
           </Tab>
-          <Tab className={({ selected }) => (selected ? 'text-orange' : '')}>
+          <Tab className={({ selected }) => (selected ? 'text-blue' : '')}>
             <a className="tab" href="#skills">
               Skills
             </a>
           </Tab>
-          <Tab className={({ selected }) => (selected ? 'text-orange' : '')}>
+          <Tab className={({ selected }) => (selected ? 'text-blue' : '')}>
             <a className="tab" href="#projects">
               Projects
             </a>
           </Tab>
-          <Tab className={({ selected }) => (selected ? 'text-orange' : '')}>
+          <Tab className={({ selected }) => (selected ? 'text-blue' : '')}>
             <a className="tab" href="#contact">
               Contact
             </a>

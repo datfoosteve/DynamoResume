@@ -45,7 +45,7 @@ const Contact = ({ data }) => {
           <form onSubmit={submitForm}>
             <div className="formMedium">
               <label htmlFor="contactName" className="label">
-                Name <span className="text-orange">*</span>
+                Name <span className="text-blue">*</span>
               </label>
               <input
                 required
@@ -60,7 +60,7 @@ const Contact = ({ data }) => {
 
             <div className="formMedium">
               <label htmlFor="contactEmail" className="label">
-                Email <span className="text-orange">*</span>
+                Email <span className="text-blue">*</span>
               </label>
               <input
                 required
@@ -89,7 +89,7 @@ const Contact = ({ data }) => {
 
             <div className="md:inline-flex">
               <label htmlFor="contactMessage" className="label">
-                Message <span className="text-orange">*</span>
+                Message <span className="text-blue">*</span>
               </label>
               <textarea
                 required

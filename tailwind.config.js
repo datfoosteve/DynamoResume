@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        orange: '#F56565',
-        slate: '#E2E8F0',
+        blue: '#0F4C8',
+        slate: '#E1E1E8',
       },
       backgroundImage: {
         'header-background': "url('/images/header-background.jpg')",

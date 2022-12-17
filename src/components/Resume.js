@@ -67,19 +67,19 @@ const Resume = ({ data }) => {
       <section id="resume" className="resume">
         <div className="mediumScreen">
           <div className="block">
-            <span className="title decoration-orange">Education</span>
+            <span className="title decoration-blue">Education</span>
           </div>
           <div className="margin">{education}</div>
         </div>
         <div className="blockBorder">
           <div className="block">
-            <span className="title decoration-orange">Work</span>
+            <span className="title decoration-blue">Work</span>
           </div>
           <div className="margin">{work}</div>
         </div>
         <div className="blockBorder">
           <div className="block">
-            <span className="title decoration-orange">Skills</span>
+            <span className="title decoration-blue">Skills</span>
           </div>
           <div>
             <p className="skillMessage heading">{skillmessage}</p>
@@ -88,7 +88,7 @@ const Resume = ({ data }) => {
         <div className="skills scrollbar-hide">{skills}</div>
         <div className="blockBorder">
           <div className="block">
-            <span className="title decoration-orange md:ml-8">
+            <span className="title decoration-blue md:ml-8">
               Certificates
             </span>
           </div>

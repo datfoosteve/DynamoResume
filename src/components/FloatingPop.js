@@ -6,12 +6,12 @@ const FloatingPop = () => {
   return (
     <div className="floatingPop">
       <Popover>
-        <Popover.Button className="popoverButton hover:shadow-orange">
+        <Popover.Button className="popoverButton hover:shadow-blue">
           <MenuIcon className="menuIcon" />
         </Popover.Button>
 
         <Popover.Panel>
-          <div className="popoverPanel bg-orange tracking-wider text-slate">
+          <div className="popoverPanel bg-blue tracking-wider text-slate">
             <a className="hover" href="#home">
               Home
             </a>

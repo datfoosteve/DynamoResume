@@ -11,7 +11,7 @@ export default function Footer({ data }) {
             <img
               alt={network.network}
               src={pic}
-              className="socialIcon hover:text-orange"
+              className="socialIcon hover:text-blue"
             />
           </a>
         </div>
@@ -22,7 +22,7 @@ export default function Footer({ data }) {
     <div className="footer">
       <div className="footerOverlay">
         <div className="split"></div>
-        <button className="backToTopButton hover:shadow-orange">
+        <button className="backToTopButton hover:shadow-blue">
           <a title="BacktoTop" href="#home">
             <ChevronUpIcon className="chevronUp" />
           </a>

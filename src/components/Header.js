@@ -16,7 +16,7 @@ const Header = ({ data }) => {
             <img
               alt={network.network}
               src={pic}
-              className="socialIcon hover:text-orange"
+              className="socialIcon hover:text-blue"
             />
           </a>
         </div>
@@ -27,13 +27,13 @@ const Header = ({ data }) => {
   return (
     <header id="home" className="header">
       <div className="description"> {description}</div>
-      <h3 className="city text-orange">
+      <h3 className="city text-blue">
         Based in {city}, {state}.
         <span className="occupation"> {occupation}</span>.
       </h3>
       <div className="socialGroup">{networks}</div>
 
-      <button className="pagedownButton hover:shadow-orange">
+      <button className="pagedownButton hover:shadow-blue">
         <a href="#about">
           <ChevronDownIcon className="chevronDownIcon" />
         </a>
