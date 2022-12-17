@@ -8,6 +8,7 @@ import Contact from '../components/Contact'
 import Portfolio from '../components/Portfolio'
 import Testimonials from '../components/Testimonials'
 
+
 export default function Home() {
   const [resumeData, setResumeData] = useState({})
 

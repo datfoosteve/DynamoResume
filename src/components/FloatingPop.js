@@ -11,7 +11,7 @@ const FloatingPop = () => {
         </Popover.Button>
 
         <Popover.Panel>
-          <div className="popoverPanel bg-blue tracking-wider text-slate">
+          <div className="popoverPanel bg-blue tracking-wider text-red">
             <a className="hover" href="#home">
               Home
             </a>

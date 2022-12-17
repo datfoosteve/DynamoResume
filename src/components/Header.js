@@ -31,8 +31,7 @@ const Header = ({ data }) => {
         Based in {city}, {state}.
         <span className="occupation"> {occupation}</span>.
       </h3>
-      <div className="socialGroup">{networks}</div>
-
+     
       <button className="pagedownButton hover:shadow-blue">
         <a href="#about">
           <ChevronDownIcon className="chevronDownIcon" />
