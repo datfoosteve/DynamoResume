@@ -154,5 +154,13 @@
           "url": "https://musedao.io/farm"
         }
       ]
+    },
+    "testimonials": {
+      "testimonials": [
+        {
+          "text": "he did great work on the project and was very responsive to feedback. I would definitely work with him again.",
+          "user": "kimberly"
+        }
+      ]
     }
   }
