@@ -15,7 +15,7 @@
         "zip": "75149"
       },
       "website": "github.com/datfoosteve",
-      "resumedownload": "/Beau-Resume-2022.pdf",
+      "resumedownload": "github.com/datfoosteve",
       "social": [
         {
           "network": "twitter",
@@ -24,24 +24,29 @@
         },
         {
           "network": "linkedin",
-          "link": "https://www.linkedin.com/puthenpurackalstephen",
+          "link": "https://www.linkedin.com/Puthenpurackalstephen",
           "pic": "linkedin.svg"
         },
         {
           "network": "github",
-          "link": "https://github.com/",
+          "link": "https://github.com/datfoosteve",
           "pic": "github.svg"
         }
       ]
     },
     "resume": {
-      "skillmessage": "Experience with:",
+      "skillmessage": "Experience with : ",
       "education": [
         {
           "school": "Midwestern State University, Wichita Falls, TX",
           "degree": "Bachelor's Degree in Science, Computer Science",
           "graduated": "Dec 2020",
-          "description": "Bachelor's Degree in Science, Computer Science"
+          "description": "Bachelor's Degree in Science, Computer Science, Students learn the fundamentals of computer science, including data structures, algorithms, and programming languages."
+        },
+        {
+          "school": "SMU Full Stack Engineering Bootcamp, Dallas, TX",
+          "graduated": "Dec 2022",
+          "description": "Full Stack Web Development, Students learn the fundamentals of web development, including HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js, Express.js, MySQL, MongoDB, React, and more."
         }
       ],
       "work": [
@@ -118,7 +123,7 @@
         {
           "name": "Full Stack Web Development",
           "src": "odyssey-cert.png",
-          "url": "https://www.apollographql.com/tutorials/certifications/84c7debb-7749-4eef-a19b-67d766d1d1be"
+          "url": "https://github.com/datfoosteve"
         }
       ]
     },
@@ -126,40 +131,52 @@
     "portfolio": {
       "projects": [
         {
-          "title": "Proof",
-          "description": "Proof of Humanity tooling and ceramic network social application.",
-          "category": "",
+          "title": "Example Title",
+          "description": "Example Description",
+          "category": "Example Catagory",
           "image": "poh.png",
-          "url": "https://proof-neon.vercel.app/"
+          "url": "https://github.com/datfoosteve"
         },
         {
-          "title": "Winsome-Tenley NFT drop",
-          "description": "2nd place winner. Papa React NFT Drop Challenge.",
-          "category": "",
+          "title": "Example Title",
+          "description": "Example Description",
+          "category": "Example Catagory",
           "image": "winsome-tenley.png",
-          "url": "https://winsome-tenley.vercel.app/"
+          "url": "https://github.com/datfoosteve"
         },
         {
-          "title": "Specto Hackathon Contributor",
-          "description": "Lens Protocol Hackathon. 1 of 5 contributors. April 2022",
-          "category": "",
+          "title": "Example Title",
+          "description": "Example Description",
+          "category": "Example Catagory",
           "image": "specto-black.png",
-          "url": "https://github.com/Ecto-Finance/specto"
+          "url": "https://github.com/datfoosteve"
         },
         {
-          "title": "Muse DAO Contributions",
-          "description": "Several small contributions to musedao.io, noteably the Farm page.",
-          "category": "",
+          "title": "Example Title",
+          "description": "Example Description",
+          "category": "Example Catagory",
           "image": "musedao.png",
-          "url": "https://musedao.io/farm"
+          "url": "https://github.com/datfoosteve"
         }
       ]
     },
     "testimonials": {
       "testimonials": [
         {
-          "text": "he did great work on the project and was very responsive to feedback. I would definitely work with him again.",
-          "user": "kimberly"
+          "text": "omg he did great work on the project and was very responsive to feedback. I would definitely work with him again. 10/10",
+          "user": "kimberly jones - CEO of company xyz"
+        },
+        {
+          "text": "HOLY COW! He is a genius! I would hire him again in a heartbeat.",
+          "user": "jane doe - CEO of company xyz"
+        },
+        {
+          "text": "Insane work ethic. He is a true professional.",
+          "user": "The arbitrator - CEO of company xyz"
+        },
+        {
+          "text": "sexy looking code and naughty comments in the code. i think he is a genuine jewel of a dev ops professional.",
+          "user": "God - CEO of company Heaven"
         }
       ]
     }

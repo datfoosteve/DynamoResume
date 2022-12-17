@@ -32,7 +32,7 @@ export default function Footer({ data }) {
       <div className="socialGroup">{networks}</div>
       <div className="my">
         <a title="footer" href="https://github.com/datfoosteve">
-          <span className="madeBy">Made by</span> Stephen Puthenpurackalo <span className="">with</span> <span className="heart">❤️</span>
+          <span className="madeBy">Made by</span> Stephen Puthenpurackal <span className="">with</span> <span className="heart">❤️</span>
         </a>
       </div>
     </div>
