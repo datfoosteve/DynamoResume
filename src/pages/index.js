@@ -6,6 +6,7 @@ import About from '../components/About'
 import Resume from '../components/Resume'
 import Contact from '../components/Contact'
 import Portfolio from '../components/Portfolio'
+import Testimonials from '../components/Testimonials'
 
 export default function Home() {
   const [resumeData, setResumeData] = useState({})
@@ -28,6 +29,7 @@ export default function Home() {
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />
       <Portfolio data={resumeData.portfolio} />
+      <Testimonials data={resumeData.testimonials}/>
       <Contact data={resumeData.main} />
       <Footer data={resumeData.main} />
     </div>
