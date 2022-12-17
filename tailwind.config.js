@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        orange: '#F97316',
+        orange: '#F56565',
         slate: '#E2E8F0',
       },
       backgroundImage: {
