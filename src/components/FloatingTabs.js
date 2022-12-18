@@ -21,7 +21,7 @@ const FloatingTabs = () => {
               Education
             </a>
           </Tab><Tab className={({ selected }) => (selected ? 'text-blue' : '')}>
-            <a className="tab" href="#experiance">
+            <a className="tab" href="#experience">
               Experience
             </a>
           </Tab>
