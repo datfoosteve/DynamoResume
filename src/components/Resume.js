@@ -67,18 +67,22 @@ const Resume = ({ data }) => {
       <section id="resume" className="resume">
         <div className="mediumScreen">
           <div className="block">
+            <section id="education"></section>
             <span className="title decoration-blue">Education</span>
           </div>
           <div className="margin">{education}</div>
         </div>
         <div className="blockBorder">
           <div className="block">
+            <section id="work"></section>
             <span className="title decoration-blue">Work</span>
           </div>
           <div className="margin">{work}</div>
+
         </div>
         <div className="blockBorder">
           <div className="block">
+            <section id="skills"></section>
             <span className="title decoration-blue">Skills</span>
           </div>
           <div>
@@ -88,6 +92,7 @@ const Resume = ({ data }) => {
         <div className="skills scrollbar-hide">{skills}</div>
         <div className="blockBorder">
           <div className="block">
+            <section id="certificates"></section>
             <span className="title decoration-blue md:ml-8">
               Certificates
             </span>
