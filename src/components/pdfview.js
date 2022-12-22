@@ -13,8 +13,8 @@ const View = () => {
     }, [])
 
     return (
-        <div>
-            {InvoicePDF/>}
+        <div> 
+            { InvoicePDF && <InvoicePDF data={client} /> }
         </div>
     )
 }

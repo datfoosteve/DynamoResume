@@ -6,7 +6,7 @@ const FloatingTabs = () => {
     <div className="floatingTabs">
       <Tab.Group>
         <Tab.List className="tabList">
-          <Tab className={({ selected }) => (selected ? 'text-blue' : '')}>
+          <Tab className={({ selected }) => (selected ? 'text-blue': '')}>
             <a className="tab" href="#home">
               Home
             </a>

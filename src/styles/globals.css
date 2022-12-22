@@ -45,10 +45,11 @@
     @apply h-7 cursor-pointer md:hidden;
   }
   .popoverPanel {
-    @apply absolute z-10 ml-4 mt-6 grid w-36 grid-rows-6 rounded-lg p-6;
+    @apply absolute z-10 ml-1 mt-4 grid w-32 grid-rows-6 rounded-lg p-6;
+    @apply hover:backdrop-blur-md;
   }
   .hover {
-    @apply hover:text-sky-400;
+    @apply hover:text-sky-700;
   }
 
   /* ------------------------------------------------------------------ */
@@ -56,15 +57,14 @@
   /* ------------------------------------------------------------------ */
 
   .floatingTabs {
-    @apply sticky top-0 items-center bg-transparent;
+    @apply sticky top-0 items-center bg-transparent hover:backdrop-blur-lg hover:backdrop-brightness-95;
   }
-  .tabList {
-    @apply relative top-0 space-x-6 text-center text-[12px] text-black md:h-10 md:bg-white;
+    .tabList {
+    @apply relative top-0 space-x-4 text-center text-[16px] text-black md:h-10 backdrop-brightness-95;
   }
   .tab {
-    @apply mt-3 hidden uppercase md:flex;
+    @apply mt-3 hidden -hue-rotate-180 uppercase md:flex backdrop-brightness-95 ;
   }
-
   /* ------------------------------------------------------------------ */
   /* c. Header
   /* ------------------------------------------------------------------ */
@@ -294,7 +294,7 @@
     @apply w-full bg-white text-center;
   }
   .footerOverlay {
-    @apply relative -mt-[30px] flex items-center;
+    @apply relative  -mt-[30px] flex items-center;
   }
   .my {
     @apply my-12;
