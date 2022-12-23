@@ -2,11 +2,13 @@ import React from 'react'
 import '../styles/globals.css'
 import Layout from '../components/Layout'
 import { ParallaxProvider } from 'react-scroll-parallax'
-
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 function MyApp({ Component, pageProps} ) { 
   return (
   <ParallaxProvider>
+    <Viewer plugins={[defaultLayoutPluginInstance]} />
     <Layout>
       <Component {...pageProps} />
   </Layout> 

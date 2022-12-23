@@ -1,6 +1,16 @@
 import React from 'react'
+// Import the main component
+import { Viewer } from '@react-pdf-viewer/core';
+
+// Import the styles
+import '@react-pdf-viewer/core/lib/styles/index.css';
+
+
 
 const Resume = ({ data }) => {
+
+
+<Viewer fileUrl="/path/to/document.pdf" />;
   if (data) {
     var skillmessage = data.skillmessage
     var education = data.education.map(function (education) {
@@ -101,6 +111,14 @@ const Resume = ({ data }) => {
         <div className="mx-auto mt-12 mb-12 max-w-4xl md:grid md:grid-cols-2 md:space-x-8 md:px-8 xl:max-w-6xl">
           {certificates}
         </div>
+        <div
+    style={{
+        border: '1px solid rgba(0, 0, 0, 0.3)',
+        height: '750px',
+    }}
+>
+    <Viewer fileUrl="/assets/pdf-open-parameters.pdf" />
+</div>
       </section>
     </>
   )

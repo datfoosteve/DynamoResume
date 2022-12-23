@@ -4,12 +4,12 @@ import { NextApiRequest, NextApiResponse } from 'next'
 /**
  * @typedef {NextApiResponse} NewType
  */
-
+  
 export default function handler(NextApiRequest,NewType) {
   res.statusCode = 200
   res.json({ name: 'John Doe' })
 }
-res.json({ name: 'John Doe' })
+
 // Path: src\pages\api.js\hello.js  
 // Compare this snippet from src\components\Portfolio.js:
 // import React from 'react'
