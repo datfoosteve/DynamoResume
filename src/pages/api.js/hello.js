@@ -1,11 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import { NextApiRequest, NextApiResponse } from 'next'
 
-/**
- * @typedef {NextApiResponse} NewType
- */
-  
-export default function handler(NextApiRequest,NewType) {
+
+export default function handler() {
   res.statusCode = 200
   res.json({ name: 'John Doe' })
 }

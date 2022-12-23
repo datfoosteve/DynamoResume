@@ -8,7 +8,6 @@ import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 function MyApp({ Component, pageProps} ) { 
   return (
   <ParallaxProvider>
-    <Viewer plugins={[defaultLayoutPluginInstance]} />
     <Layout>
       <Component {...pageProps} />
   </Layout> 
