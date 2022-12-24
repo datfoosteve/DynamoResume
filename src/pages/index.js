@@ -8,7 +8,6 @@ import Portfolio from '../components/Portfolio'
 import resumeData from '../resumeData'
 import PDFresume from './PDFresume';
 import Testimonials from '../components/Testimonials'
-import Resume from './components/Resume';
 import '@react-pdf-viewer/core/lib/styles/index.css'
 import '@react-pdf-viewer/default-layout/lib/styles/index.css'
 
