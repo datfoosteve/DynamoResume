@@ -10,6 +10,8 @@ import PDFresume from './PDFresume';
 import Testimonials from '../components/Testimonials'
 import '@react-pdf-viewer/core/lib/styles/index.css'
 import '@react-pdf-viewer/default-layout/lib/styles/index.css'
+import PDFViewer from '../components/PDFViewer'
+
 
 
 export default function Home() {
@@ -23,6 +25,7 @@ export default function Home() {
   <About data={resumeData.main} />
   <Resume data={resumeData.resume} />
   <PDFresume data={resumeData.main} />
+  <PDFViewer data={resumeData.main} />
   <Portfolio data={resumeData.portfolio} />
   <Testimonials data={resumeData.testimonials} />
   <Contact data={resumeData.main} />
