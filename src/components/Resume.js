@@ -7,10 +7,10 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 
 
 
-const Resume = ({ data }) => {
+const resumeData = ({ data }) => {
 
 
-<Viewer fileUrl="/path/to/document.pdf" />;
+<Viewer fileUrl="/public/assets/newresumeomg.pdf" />;
   if (data) {
     var skillmessage = data.skillmessage
     var education = data.education.map(function (education) {
@@ -117,7 +117,7 @@ const Resume = ({ data }) => {
         height: '750px',
     }}
 >
-    <Viewer fileUrl="/assets/pdf-open-parameters.pdf" />
+    <Viewer fileUrl="/public/assets/newresumeomg.pdf" />
 </div>
       </section>
     </>

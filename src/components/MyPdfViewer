@@ -1,0 +1,10 @@
+import { Viewer, Worker } from 'react-pdf-viewer';
+
+
+const MyPDFViewer = () => {
+  return (
+    <Worker workerUrl="/path/to/pdf.worker.min.js">
+      <Viewer fileUrl="/public/assets/newresumeomg.pdf" />
+    </Worker>
+  );
+};

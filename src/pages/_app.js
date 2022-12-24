@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps} ) {
   </Layout> 
   </ParallaxProvider>
 )}
-export default MyApp
+export default MyApp;
 
  
   
